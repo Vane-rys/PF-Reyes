@@ -167,13 +167,15 @@ body.inicio p a {
     margin: 0 20px;
 }
 
-/* ========MAIN========*/
+/* ========HOME========*/
+
+/* MAIN */
 
 main {
     background: url(Multimedia/video-home.mov);
     height: 40vh;
     background-size: cover;
-    background-position: top;
+    background-position:top;
     background-attachment: fixed;
     display: grid;
     place-content: center;
@@ -194,7 +196,7 @@ h1 {
     font-size: var(--size-h1);
 }
 
-/* ========CONTENEDOR PERFIL========*/
+/*CONTENEDOR PERFIL*/
 
 .contenedor {
     display: flex;
@@ -430,6 +432,7 @@ footer i {
 }
 
 /*==========MIS CLASES==========*/
+
 .mis-clases {
     background-image: url(Multimedia/video-clase.mov);
     height: 40vh;
@@ -605,6 +608,7 @@ footer i {
 }
 
 /*========EXAMEN========*/
+
 .mi-examen {
     background-image: url(Multimedia/video-poomsae.mov);
     height: 40vh;
@@ -659,7 +663,8 @@ footer i {
     border: 2px solid var(--color-terciario);
 }
 
-/*MEDIA QUERIES*/
+/*========MEDIA QUERIES========*/
+
 /*smartphones*/
 @media (min-width: 320px) and (max-width: 767px) {
 
@@ -695,6 +700,10 @@ footer i {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2);
         justify-content: center;
+    }
+
+    .videos iframe{
+        width: 100vw !important;
     }
 
     .datos {
