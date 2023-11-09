@@ -7,8 +7,6 @@
   font-family: "Lato", sans-serif !important;
 }
 
-/* VARIABLES REUTILIZABLES */
-/* box-shadow foto de perfil*/
 html {
   scroll-behavior: smooth;
 }
@@ -127,7 +125,7 @@ html {
 /* ========HOME======== */
 /* MAIN */
 main {
-  background: url("Multimedia/video-home.mov");
+  background: url(Multimedia/video-home.mp4);
   height: 40vh;
   background-size: cover;
   background-position: bottom;
@@ -365,7 +363,7 @@ footer i:hover {
 
 /*==========MIS CLASES==========*/
 .mis-clases {
-  background-image: url(Multimedia/video-clase.mov);
+  background-image: url(Multimedia/video-clase.mp4);
   height: 40vh;
   width: 100%;
   background-size: cover;
@@ -463,7 +461,7 @@ footer i:hover {
 
 /*=========EVENTOS=========*/
 .mis-eventos {
-  background-image: url(Multimedia/video-torneo.mov);
+  background-image: url(Multimedia/video-torneo.mp4);
   height: 40vh;
   width: 100%;
   background-size: cover;
@@ -549,7 +547,7 @@ footer i:hover {
 
 /*========EXAMEN========*/
 .mi-examen {
-  background-image: url(Multimedia/video-poomsae.mov);
+  background-image: url(Multimedia/video-poomsae.mp4);
   height: 40vh;
   width: 100%;
   background-size: cover;
@@ -884,4 +882,6 @@ footer i:hover {
     text-align: center; /* Centra horizontalmente el título */
     width: 100%;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */

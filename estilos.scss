@@ -7,7 +7,7 @@
     font-family: 'Lato', sans-serif !important;
 }
 
-/* VARIABLES REUTILIZABLES */
+// VARIABLES REUTILIZABLES
     $color-principal: #E72F59;
     $color-secundario: white;
     $color-terciario: black;
@@ -15,7 +15,7 @@
     $color-hover: #ca244b;
     $color-dark: #B61538;
 
-    $bs-bordes-fp: 0 0 0 5px green, 0 0 0 15px yellow; /* box-shadow foto de perfil*/
+    $bs-bordes-fp: 0 0 0 5px green, 0 0 0 15px yellow; //  box-shadow foto de perfil
 
     $size-nav: 22px;
     $size-h1: 40px;
@@ -146,7 +146,7 @@ html {
 
 /* MAIN */
 main {
-    background: url('Multimedia/video-home.mov');
+    background: url(Multimedia/video-home.mp4);
     height: 40vh;
     background-size: cover;
     background-position: bottom;
