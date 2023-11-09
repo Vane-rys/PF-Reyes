@@ -415,6 +415,12 @@ footer{
     text-align: center !important;
     border-radius: 10px;
     color: $color-secundario !important;
+    transition: transform 0.4s ease-in-out;
+
+    &:hover {
+        transform: scale(1.02);
+        background: linear-gradient(to bottom, $color-principal 40% , $color-dark,);
+    }
 }
 
 .class {
@@ -504,6 +510,12 @@ footer{
     text-align: center;
     border-radius: 10px;
     color: $color-secundario;
+    transition: transform 0.4s ease-in-out;
+
+    &:hover {
+        transform: scale(1.02);
+        background: linear-gradient(to bottom, $color-principal 40% , $color-dark,);
+    }
 }
 
 .eventos {
