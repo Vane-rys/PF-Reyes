@@ -379,30 +379,45 @@ footer{
 }
 
 /*==========MIS CLASES==========*/
-.mis-clases{
+.mis-clases {
     background-image: url(Multimedia/video-clase.mov);
     height: 40vh;
     width: 100%;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-attachment: fixed;
     display: grid;
     place-content: center;
 
-    h1{
+    h1 {
         color: $color-secundario;
         border: 4px solid $color-principal;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 40px 80px;
     }
 }
+
 .subtitle {
     color: $color-principal;
     text-align: center;
     margin-top: 50px;
     font-size: $size-h2 !important;
 }
-.class{
+
+@mixin card-styles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px !important;
+    width: 250px !important;
+    background-color: $color-principal !important;
+    text-align: center !important;
+    border-radius: 10px;
+    color: $color-secundario !important;
+}
+
+.class {
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
@@ -410,23 +425,14 @@ footer{
     gap: 50px;
     margin-bottom: 20px;
 
-    .card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 400px !important;
-        width: 250px !important;
-        background-color: $color-principal !important;
-        text-align: center !important;
-        border-radius: 10px;
-        color: $color-secundario !important;
+    .card {
+        @include card-styles;
 
         .title {
             font-size: $size-h2;
             font-weight: normal;
         }
-        
+
         .fecha,
         .nombre {
             font-size: $size-p;
@@ -444,30 +450,33 @@ footer{
             margin-top: 10px;
             margin-bottom: 20px;
         }
-        
+
         .desc {
             font-size: $size-h3;
             font-weight: normal;
         }
-        
+
         .noti {
-            i{
+            i {
                 color: $color-secundario;
-            font-size: 30px;
-            &:hover{
-                color: rgb(237, 236, 236);
+                font-size: 30px;
+
+                &:hover {
+                    color: rgb(237, 236, 236);
+                }
             }
-            }
+
             p {
                 font-size: 16px;
                 font-weight: lighter;
-            }    
+            }
         }
     }
 }
 
+
 /*=========EVENTOS=========*/
-.mis-eventos{
+.mis-eventos {
     background-image: url(Multimedia/video-torneo.mov);
     height: 40vh;
     width: 100%;
@@ -477,7 +486,7 @@ footer{
     display: grid;
     place-content: center;
 
-    h1{
+    h1 {
         color: $color-secundario;
         border: 4px solid $color-principal;
         background-color: rgba(0, 0, 0, 0.5);
@@ -485,7 +494,19 @@ footer{
     }
 }
 
-.eventos{
+@mixin event-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 450px;
+    background-color: $color-principal;
+    text-align: center;
+    border-radius: 10px;
+    color: $color-secundario;
+}
+
+.eventos {
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
@@ -493,25 +514,20 @@ footer{
     gap: 50px;
     margin-bottom: 50px;
 
-    .event-card{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 200px;
-        width: 450px;
-        background-color: $color-principal;
-        text-align: center;
-        border-radius: 10px;
-        color: $color-secundario;
 
-        h3{
+    .event-card {
+        @include event-style;
+
+        h3 {
             font-size: 20px;
             font-weight: normal;
         }
-        h4{
+
+        h4 {
             font-size: 16px;
             font-weight: lighter;
         }
+
         .columnas-container {
             display: flex;
             justify-content: space-between;
@@ -521,6 +537,7 @@ footer{
                 margin: 20px;
 
             }
+
             .columna2 a {
                 display: flex;
                 align-items: center;

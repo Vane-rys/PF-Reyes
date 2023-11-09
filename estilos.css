@@ -357,7 +357,7 @@ footer i:hover {
   height: 40vh;
   width: 100%;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-attachment: fixed;
   display: grid;
   place-content: center;
@@ -826,6 +826,4 @@ footer i:hover {
     text-align: center; /* Centra horizontalmente el título */
     width: 100%;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
