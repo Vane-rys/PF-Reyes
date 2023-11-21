@@ -25,6 +25,7 @@
     $size-p: 20px;
     $size-input: 16px;
 
+    $font: 'Lato', sans-serif;
 
 html {
     scroll-behavior: smooth;
@@ -423,7 +424,13 @@ footer{
         }
     }
 }
-
+.frase{
+    text-align: center;
+    color: $color-terciario;
+    font-size: $size-h2;
+    font-family: $font;
+    font-weight: normal;
+}
 .subtitle {
     color: $color-principal;
     text-align: center;
@@ -729,6 +736,12 @@ footer{
     .mi-examen{
         object-fit: cover;
     }
+
+    /*FRASE BAJO EL MAIN*/
+    .frase{
+        margin: 50px 50px;
+        font-size: $size-p;
+    }
 }
 
 /*tablets*/
@@ -787,6 +800,11 @@ footer{
         width: auto;
         padding: 20px;
         font-size: var(--size-p);
+    }
+
+    /*FRASE BAJO EL MAIN*/
+    .frase{
+        margin: 50px 150px;
     }
 }
 
@@ -907,6 +925,11 @@ footer{
 
     .ver-mas {
         display: inline-block;
+    }
+
+    /*FRASE BAJO EL MAIN*/
+    .frase{
+        margin: 50px 300px;
     }
 
     /*PREPARO MI EXAMEN*/
@@ -1033,6 +1056,11 @@ footer{
 
     .ver-mas {
         display: inline-block;
+    }
+
+    /*FRASE BAJO EL MAIN*/
+    .frase{
+        margin: 50px 300px;
     }
     
     /*PREPARO MI EXAMEN*/

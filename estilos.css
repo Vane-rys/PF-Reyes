@@ -393,6 +393,14 @@ footer i:hover {
   }
 }
 
+.frase {
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
 .subtitle {
   color: #E72F59;
   text-align: center;
@@ -652,6 +660,11 @@ footer i:hover {
   .mi-examen {
     object-fit: cover;
   }
+  /*FRASE BAJO EL MAIN*/
+  .frase {
+    margin: 50px 50px;
+    font-size: 20px;
+  }
 }
 /*tablets*/
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -699,6 +712,10 @@ footer i:hover {
     width: auto;
     padding: 20px;
     font-size: var(--size-p);
+  }
+  /*FRASE BAJO EL MAIN*/
+  .frase {
+    margin: 50px 150px;
   }
 }
 /*notebooks*/
@@ -799,6 +816,10 @@ footer i:hover {
   }
   .ver-mas {
     display: inline-block;
+  }
+  /*FRASE BAJO EL MAIN*/
+  .frase {
+    margin: 50px 300px;
   }
   /*PREPARO MI EXAMEN*/
   .videos-exam {
@@ -902,6 +923,10 @@ footer i:hover {
   }
   .ver-mas {
     display: inline-block;
+  }
+  /*FRASE BAJO EL MAIN*/
+  .frase {
+    margin: 50px 300px;
   }
   /*PREPARO MI EXAMEN*/
   .videos-exam {
