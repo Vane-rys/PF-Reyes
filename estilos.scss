@@ -133,6 +133,7 @@ html {
                 background-color: $color-principal !important;
                 color: $color-secundario !important;
                 transform: scale(1.05);
+                border-radius: 10px;
             }
         }
     }
@@ -145,14 +146,14 @@ html {
 /* ========HOME======== */
 
 /* MAIN */
-main {
-    background: url(Multimedia/video-home.mp4);
-    height: 40vh;
+.home {
+    background: url(Multimedia/home.JPG);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-attachment: fixed;
     display: grid;
     place-content: center;
+    object-fit: cover;
 
     .titulo h1 {
         color: $color-secundario;
@@ -264,6 +265,7 @@ h1 {
     grid-template-rows: repeat(3);
     align-items: center;
     align-content: center;
+    object-fit: cover;
     
     h3{
         font-size: $size-h3;
@@ -393,7 +395,7 @@ footer{
 
 /*==========MIS CLASES==========*/
 .mis-clases {
-    background-image: url(Multimedia/video-clase.mp4);
+    background-image: url(Multimedia/clases.JPG);
     height: 40vh;
     width: 100%;
     background-size: cover;
@@ -508,7 +510,7 @@ footer{
 
 /*=========EVENTOS=========*/
 .mis-eventos {
-    background-image: url(Multimedia/video-torneo.mp4);
+    background-image: url(Multimedia/eventos.JPG);
     height: 40vh;
     width: 100%;
     background-size: cover;
@@ -609,7 +611,7 @@ footer{
 
 /*========EXAMEN========*/
 .mi-examen {
-    background-image: url(Multimedia/video-poomsae.mp4);
+    background-image: url(Multimedia/examen.JPG);
     height: 40vh;
     width: 100%;
     background-size: cover;
@@ -688,6 +690,14 @@ footer{
     }
 
     /*=====HOME=====*/
+    .home,
+    .mis-clases,
+    .mi-examen,
+    .mis-eventos{
+        height: 30vh !important;
+        width: 100%;
+    }
+
     .container-fluid {
         width: 100% !important;
     }
@@ -712,6 +722,12 @@ footer{
         width: auto;
         padding: 20px;
         font-size: var(--size-p);
+    }
+
+    .mis-clases,
+    .mis-eventos,
+    .mi-examen{
+        object-fit: cover;
     }
 }
 
@@ -742,6 +758,12 @@ footer{
     }
 
     /*=====HOME=====*/
+    .home,
+    .mis-clases,
+    .mi-examen,
+    .mis-eventos{
+        height: 40vh !important;
+    }
 
     .box-datos {
         display: flex;
@@ -795,6 +817,15 @@ footer{
     }
 
     /*=====HOME=====*/
+    .home,
+    .mis-clases,
+    .mi-examen,
+    .mis-eventos{
+        height: 60vh !important;
+        width: 100%;
+        object-fit: cover !important;
+    }
+
     .contenedor {
         display: flex;
         justify-content: center;
@@ -849,13 +880,12 @@ footer{
         align-items: center;
         justify-content: center;
         text-align: center;
-        height: 900px;
+        height: 800px;
         /* Establece la altura de la sección para centrar verticalmente */
     }
 
-
     .videos iframe {
-        width: 600px;
+        width: 400px;
         height: 300px;
         display: flex;
         flex-direction: column;
@@ -880,6 +910,7 @@ footer{
     }
 
     /*PREPARO MI EXAMEN*/
+
     .videos-exam {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -931,6 +962,15 @@ footer{
     }
 
     /*=====HOME=====*/
+    .home,
+    .mis-clases,
+    .mi-examen,
+    .mis-eventos{
+        height: 60vh !important;
+        width: 100%;
+        object-fit: cover !important;
+    }
+
     .opciones {
         display: flex;
         flex-direction: row;
