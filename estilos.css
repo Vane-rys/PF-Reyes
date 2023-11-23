@@ -631,8 +631,22 @@ footer i:hover {
   .mis-clases,
   .mi-examen,
   .mis-eventos {
-    height: 30vh !important;
-    width: 100%;
+    height: 50vh !important;
+    width: auto !important;
+  }
+  .box-datos .datos h3 {
+    margin-bottom: 20px;
+  }
+  .box-datos .datos .dato-column {
+    margin: 5px;
+  }
+  .box-datos .datos .dato-column .dato1,
+  .box-datos .datos .dato-column .dato2,
+  .box-datos .datos .dato-column .dato3,
+  .box-datos .datos .dato-column .dato4,
+  .box-datos .datos .dato-column .dato5,
+  .box-datos .datos .dato-column .dato6 {
+    margin-bottom: 5px;
   }
   .container-fluid {
     width: 100% !important;
@@ -648,6 +662,7 @@ footer i:hover {
     justify-content: center;
   }
   .videos iframe {
+    height: 20vh !important;
     width: 100vw !important;
   }
   .datos {

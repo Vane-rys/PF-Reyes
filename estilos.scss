@@ -701,8 +701,28 @@ footer{
     .mis-clases,
     .mi-examen,
     .mis-eventos{
-        height: 30vh !important;
-        width: 100%;
+        height: 50vh !important;
+        width: auto !important;
+    }
+    .box-datos{
+        .datos{
+    
+            h3{
+                margin-bottom: 20px;            
+            }
+            .dato-column{
+                margin: 5px;
+    
+                .dato1,
+                .dato2,
+                .dato3,
+                .dato4,
+                .dato5,
+                .dato6 {
+                    margin-bottom: 5px;
+                }
+            }
+        }
     }
 
     .container-fluid {
@@ -722,6 +742,7 @@ footer{
     }
 
     .videos iframe{
+        height: 20vh !important;
         width: 100vw !important;
     }
 
