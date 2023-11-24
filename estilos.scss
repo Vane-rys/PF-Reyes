@@ -148,7 +148,7 @@ html {
 
 /* MAIN */
 .home {
-    background: url(Multimedia/home.JPG);
+    background: url(multimedia/home.JPG);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -254,7 +254,7 @@ h1 {
 
 /* CONTENIDO OPCIONES */
 .opciones{
-    background-image: url(Multimedia/fondo-opciones.jpg);
+    background-image: url(multimedia/fondo-opciones.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -396,7 +396,7 @@ footer{
 
 /*==========MIS CLASES==========*/
 .mis-clases {
-    background-image: url(Multimedia/clases.JPG);
+    background-image: url(multimedia/clases.JPG);
     height: 40vh;
     width: 100%;
     background-size: cover;
@@ -484,7 +484,7 @@ footer{
             width: 100px !important;
             background-color: $color-secundario;
             border-radius: 50%;
-            background-image: url(Multimedia/foto-profesor.avif);
+            background-image: url(multimedia/foto-profesor.avif);
             background-size: cover;
             background-position: top;
             margin-top: 10px;
@@ -517,7 +517,7 @@ footer{
 
 /*=========EVENTOS=========*/
 .mis-eventos {
-    background-image: url(Multimedia/eventos.JPG);
+    background-image: url(multimedia/eventos.JPG);
     height: 40vh;
     width: 100%;
     background-size: cover;
@@ -618,7 +618,7 @@ footer{
 
 /*========EXAMEN========*/
 .mi-examen {
-    background-image: url(Multimedia/examen.JPG);
+    background-image: url(multimedia/examen.JPG);
     height: 40vh;
     width: 100%;
     background-size: cover;
