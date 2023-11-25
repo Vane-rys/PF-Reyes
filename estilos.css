@@ -617,6 +617,10 @@ footer i:hover {
   .inicio {
     height: 100vh;
   }
+  .inicio .correo input,
+  .inicio .clave input {
+    width: 250px;
+  }
   .boton {
     margin-bottom: 20px;
   }
@@ -679,6 +683,13 @@ footer i:hover {
   .frase {
     margin: 50px 50px;
     font-size: 20px;
+  }
+  .videos-exam .video1 iframe,
+  .videos-exam .video2 iframe,
+  .videos-exam .video3 iframe,
+  .videos-exam .video4 iframe {
+    width: 100vw !important;
+    height: auto;
   }
 }
 /*tablets*/

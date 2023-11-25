@@ -682,6 +682,14 @@ footer{
     /*=====INICIO SESIÓN=====*/
     .inicio {
         height: 100vh;
+
+        .correo,
+        .clave{
+            input{
+                width: 250px;
+            }
+            
+        }
     }
 
     .boton {
@@ -762,6 +770,18 @@ footer{
     .frase{
         margin: 50px 50px;
         font-size: $size-p;
+    }
+
+    .videos-exam{
+        .video1,
+        .video2,
+        .video3,
+        .video4{
+            iframe{
+                width: 100vw !important;
+                height: auto;
+            }
+        }
     }
 }
 
